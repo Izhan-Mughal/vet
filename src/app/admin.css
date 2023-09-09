@@ -1,0 +1,350 @@
+.verify-number-box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.verify-number-box input {
+    text-align: center;
+    border-radius: 6px;
+    border: 1px solid #E3E3E3;
+    background: #FFF;
+    width: 10%;
+    padding: 5px;
+    background-color: #FFF;
+}
+
+.verify-number-box input::placeholder {
+    color: #939393;
+}
+
+.verify-number-box input:focus {
+    outline: 0;
+    border-color: #1BB39D;
+}
+
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
+    font-weight: 500 !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    margin-right: 3% !important;
+    font-family: 'Poppins', sans-serif !important;
+    color: #939393 !important;
+
+}
+
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected {
+    color: #4AC5B5 !important;
+}
+
+.css-1aquho2-MuiTabs-indicator {
+    background-color: #4AC5B5 !important;
+    height: 3px !important;
+}
+
+.css-19kzrtu {
+    padding: 0px !important;
+}
+
+.pro-account-input {
+    margin-bottom: 20px;
+}
+
+.pro-account-input input {
+    border-radius: 6px;
+    border: 1px solid #E3E3E3;
+    background: #FFF;
+    padding: 9px 20px;
+    width: 100%;
+}
+
+.pro-account-input select {
+    border-radius: 6px;
+    border: 1px solid #E3E3E3;
+    background: transparent;
+    padding: 9px 20px;
+    appearance: none;
+    width: 90px;
+    position: relative;
+    z-index: 10;
+}
+
+.pro-account-input textarea {
+    border-radius: 6px;
+    border: 1px solid #E3E3E3;
+    background: #FFF;
+    padding: 9px 20px;
+    width: 100%;
+}
+
+.pro-account-input textarea:focus {
+    outline: 0;
+    border-color: #4AC5B5;
+}
+
+.pro-account-input input::placeholder {
+    color: #939393;
+}
+
+.pro-account-input label {
+    color: #050100;
+    font-weight: 500;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.pro-account-input select:focus {
+    outline: 0;
+    border-color: #4AC5B5;
+}
+
+.pro-account-input input:focus {
+    outline: 0;
+    border-color: #4AC5B5;
+}
+
+.countrycode-pro-arrow {
+    position: absolute;
+    top: 13px;
+    right: 10px;
+    z-index: 0;
+}
+
+.pro-account-input button {
+    font-weight: 700;
+}
+
+.pro-account-input button:hover {
+    color: #1BB39D;
+}
+
+.days-box {
+    display: flex;
+    gap: 10px;
+}
+
+.days-box div {
+    border-radius: 4px;
+    border: 1px solid #ECEDED;
+    color: #050100;
+    font-weight: 500;
+    width: 13%;
+    height: 50px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    transition: .4s all;
+    cursor: pointer;
+
+}
+
+.days-box div:hover {
+    background-color: #4AC5B5;
+    color: #FFF;
+}
+
+.time-box {
+    display: flex;
+    gap: 10px;
+    /* flex-wrap: wrap; */
+}
+
+.time-box div {
+    border-radius: 4px;
+    border: 1px solid #ECEDED;
+    color: #050100;
+    font-weight: 500;
+    width: 19.4%;
+    height: 50px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    transition: .4s all;
+    cursor: pointer;
+}
+
+.time-box div:hover {
+    background-color: #4AC5B5;
+    color: #FFF;
+}
+
+.acitve-box {
+    background-color: #4AC5B5;
+    color: #FFF !important;
+}
+
+.place-of-business-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.place-of-business-item div {
+    border-radius: 6px;
+    border: 1px solid #E3E3E3;
+    background: #FFF;
+    padding: 10px 20px;
+    width: 100%;
+    font-weight: 400;
+}
+
+.place-of-business-item svg {
+    cursor: pointer;
+}
+
+.appointment-scheduled-box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.appointment-scheduled-box label {
+    display: block;
+    font-weight: 500;
+}
+
+.appointment-scheduled-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.appointment-scheduled-item div {
+    border-radius: 6px;
+    border: 1px solid #E3E3E3;
+    background: #FFF;
+    padding: 7px 20px;
+}
+
+.closingPeriodbtn button:hover {
+    background-color: #4AC5B5 !important;
+}
+
+#NewClinic {
+    width: 600px;
+}
+
+.new-clinic-select select {
+    width: 125px !important;
+}
+
+.collaborate-form {
+    border-radius: 12px;
+    background: #F0F0F0;
+    padding: 20px;
+}
+
+.collaborate-form label {
+    display: block;
+    font-weight: 500;
+    color: #050100;
+    margin-bottom: 8px;
+}
+
+.collaborate-form input:focus {
+    outline: 0;
+    border-color: #4AC5B5;
+}
+
+.collaborate-form input {
+    border-radius: 6px;
+    border: 1px solid #E3E3E3;
+    background: #FFF;
+    padding: 8px 15px;
+    width: 100%;
+}
+.collaborate-form .form-group{
+    margin-bottom: 15px;;
+}
+.collabbtn:hover{
+    background-color: #4AC5B5;
+}
+.newcline-btn:hover{
+    background-color: #4AC5B5;
+}
+@media(max-width:600px) {
+    .btn-confirm-email {
+        width: 100% !important;
+    }
+
+    .verify-number-box input {
+        width: 14%;
+    }
+
+    .css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
+        margin-right: 5% !important;
+    }
+
+    .days-container {
+        overflow-x: scroll;
+    }
+
+    /* width */
+    .days-container::-webkit-scrollbar {
+        width: 10px;
+    }
+
+    /* Track */
+    .days-container::-webkit-scrollbar-track {
+        background: transparent;
+    }
+
+    /* Handle */
+    .days-container::-webkit-scrollbar-thumb {
+        background: transparent;
+    }
+
+    /* Handle on hover */
+    .days-container::-webkit-scrollbar-thumb:hover {
+        background: transparent;
+    }
+
+    .time-box div {
+        width: 100px;
+    }
+
+    .days-box div {
+        width: 100px;
+    }
+
+    .time-box {
+        width: max-content;
+        padding-bottom: 10px;
+    }
+
+    .days-box {
+        width: max-content;
+        padding-bottom: 10px;
+    }
+
+    .appointment-scheduled-m {
+        width: 100%;
+    }
+
+    .appointment-scheduled-lbl {
+        width: 100%;
+    }
+
+    .closingPeriodbtn button {
+        width: 100%;
+        font-size: 16px !important;
+    }
+
+    .NewClinicSvg {
+        width: 30px;
+        height: 30px;
+    }
+
+    .new-clinic-select {
+        width: 57% !important;
+        text-align: center;
+    }
+    .collab2Fields{
+        flex-wrap: wrap;
+    }
+}
